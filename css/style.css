@@ -1,0 +1,121 @@
+/* overall */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  transition: all 250ms;
+}
+body {
+  width: 100%;
+  line-height: 1.5;
+  background-color: #ececec;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+i {
+  width: 28px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+/* container */
+.container {
+  width: 960px;
+  margin: 10px auto 50px;
+  border-radius: 5px;
+  background-color: #39a9db;
+  overflow: hidden;
+  box-shadow: 0 0 5px #999;
+}
+
+/* sidebar */
+.sidebar {
+  float: left;
+  width: 290px;
+  padding: 15px;
+  line-height: 2.5;
+  color: #efefef;
+}
+.sidebar > header > h1,h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+.sidebar > header > h1 {
+  height: 70px;
+}
+.sidebar > header > h2 {
+  height: 50px;
+}
+.sidebar-info{
+  margin: 15px;
+}
+.sidebar-info-item > dt {
+  width: 86px;
+  height: 48px;
+  padding-left: 5px;
+  line-height: 2.7;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px dashed #555;
+}
+.sidebar-info-item > dd {
+  margin-left: 0;
+  font-weight: 200;
+  border-bottom: 1px dashed #555;
+}
+.sidebar-info-item > dd > i {
+  margin-right: 10px;
+}
+.sidebar-info-item > dd > a:hover {
+  text-decoration: underline;
+}
+
+/* main */
+.main {
+  background-color: white;
+  float: right;
+  width: 670px;
+  padding: 20px 30px 20px 20px;
+}
+.main > h2 {
+  padding: 13px 0 8px 5px;
+  border-bottom: 1px dashed #555;
+  text-align: left;
+}
+.main-item > dt {
+  display: inline;
+  font-size: 17px;
+  font-weight: bold;
+}
+.main-item > dd {
+  margin: 10px 0 15px 0;
+}
+.main-item > dd > p {
+  margin: 8px auto 8px 33px;
+}
+.main-item > dd > p > a {
+  display: inline-block;
+  font-size: 15px;
+  width: 50px;
+  border: 1px solid #666;
+  border-radius: 3px;
+  margin: 5px 5px 5px 0;
+  text-align: center;
+}
+.main-item > dd > p > a:last-child {
+  margin-left: 5px;
+}
+.main-item > dd > p > a:hover {
+  box-shadow: 1px 1px 2px #999;
+  background-color: #39a9db;
+  border: 1px solid #39a9db;
+  color: #fff;
+  text-shadow: 0 0 1px #ddd;
+}
