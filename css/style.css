@@ -43,27 +43,29 @@ i {
   line-height: 2.5;
   color: #efefef;
 }
-.sidebar > header > h1,h2 {
+.sidebar > img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 40px auto 15px auto;
+  border: 5px solid #eee;
+  border-radius: 50%;
+}
+.sidebar > h1 {
   text-align: center;
   margin: 0 auto;
-}
-.sidebar > header > h1 {
   height: 70px;
-}
-.sidebar > header > h2 {
-  height: 50px;
+  text-shadow: 1px 1px #39a9db,2px 2px #bbb;
 }
 .sidebar-info{
   margin: 15px;
 }
 .sidebar-info-item > dt {
-  width: 86px;
-  height: 48px;
+  height: 43px;
   padding-left: 5px;
-  line-height: 2.7;
   font-size: 18px;
-  font-weight: 500;
-  border-bottom: 1px dashed #555;
+  color: #efefef;
+  text-shadow: 2px 2px 0 #bbb;
 }
 .sidebar-info-item > dd {
   margin-left: 0;
@@ -79,10 +81,11 @@ i {
 
 /* main */
 .main {
-  background-color: white;
   float: right;
   width: 670px;
   padding: 20px 30px 20px 20px;
+  background-color: #fff;
+  color: #333;
 }
 .main > h2 {
   padding: 13px 0 8px 5px;
@@ -92,7 +95,7 @@ i {
 .main-item > dt {
   display: inline;
   font-size: 17px;
-  font-weight: bold;
+  font-weight: 600;
 }
 .main-item > dd {
   margin: 10px 0 15px 0;
