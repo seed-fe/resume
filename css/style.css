@@ -29,7 +29,7 @@ i {
 /* container，整个页面 */
 .container {
   width: 960px;
-  margin: 15px auto;
+  margin: 10px auto;
   border-radius: 5px;
   background-color: #39a9db;
   overflow: hidden;
@@ -107,7 +107,7 @@ h1 {
   text-shadow: 0 0 1px #ddd;
 }
 h2 {
-  padding: 13px 0 8px 5px;
+  padding: 2px 0 2px 5px;
   border-bottom: 1px dashed #555;
   text-align: left;
 }
@@ -117,11 +117,11 @@ h2 {
   font-weight: 600;
 }
 .main-dd {
-  margin: 10px 0 15px 0;
+  margin: 5px 0 5px 0;
 }
 .main-ul{list-style-type: disc;}
 .main-li {
-  margin: 8px auto 8px 33px;
+  margin: 5px auto 5px 33px;
 }
 /*项目信息下的code和demo链接*/
 .project-button{margin: 8px auto 8px 33px;}
