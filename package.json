@@ -1,0 +1,30 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "a resume developed with gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seed-fe/resume.git"
+  },
+  "keywords": [
+    "resume",
+    "web",
+    "front",
+    "end",
+    "gulp"
+  ],
+  "author": "Bill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seed-fe/resume/issues"
+  },
+  "homepage": "https://github.com/seed-fe/resume#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1"
+  }
+}
