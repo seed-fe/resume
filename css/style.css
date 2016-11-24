@@ -124,7 +124,7 @@ h2 {
   margin: 5px auto 5px 33px;
 }
 /*项目信息下的code和demo链接*/
-.project-button{margin: 8px auto 8px 33px;}
+.project-button{float: right;}
 .project-a {
   display: inline-block;
   font-size: 15px;
