@@ -23,8 +23,8 @@ gulp.task('watch', function() {
 		// 更改控制台日志前缀
 		logPrefix: "resume with gulp",
 		// 设置监听时打开的浏览器
-		browser: ["firefox", "chrome", "iexplore"],
+		browser: ["firefox", "chrome"],
 		// 设置服务器监听的端口号
-		port: 8080
+		port: 8090
 	});
 });
