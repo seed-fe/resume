@@ -1,0 +1,157 @@
+/* overall */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  transition: all 250ms;
+}
+body {
+  width: 100%;
+  margin: 0;
+  line-height: 1.5;
+  background-color: #ececec;
+  font-family: "Open Sans","Helvetica Neue", Helvetica,Arial,sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+i {
+  width: 28px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+/* container，整个页面 */
+.container {
+  width: 960px;
+  margin: 10px auto;
+  border-radius: 5px;
+  background-color: #39a9db;
+  overflow: hidden;
+  box-shadow: 0 0 5px #999;
+}
+
+/* sidebar，左边栏 */
+.sidebar {
+  float: left;
+  width: 290px;
+  padding: 15px;
+  line-height: 2.5;
+  color: #efefef;
+}
+/*头像*/
+img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 40px auto 15px auto;
+  border: 5px solid #eee;
+  border-radius: 50%;
+}
+/*名字*/
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  height: 70px;
+  text-shadow: 1px 1px #39a9db,2px 2px #bbb;
+}
+.sidebar-info {
+  margin: 15px;
+}
+.sidebar-dt {
+  height: 43px;
+  padding-left: 5px;
+  font-size: 18px;
+  color: #efefef;
+  text-shadow: 2px 2px 0 #bbb;
+}
+.sidebar-dd {
+  margin-left: 0;
+  font-weight: 200;
+  border-bottom: 1px dashed #555;
+}
+.sidebar-i {
+  margin-right: 10px;
+}
+.sidebar-a:hover {
+  text-decoration: underline;
+}
+
+/* main */
+.main {
+  float: right;
+  width: 670px;
+  padding: 20px 30px 20px 20px;
+  background-color: #fff;
+  color: #333;
+}
+/*下载链接*/
+#download {
+  float: right;
+  width: 78px;
+  height: 30px;
+  line-height: 29px;
+  background-color: #39a9db;
+  border: 1px solid #39a9db;
+  color: #fff;
+  border-radius: 3px;
+  text-align: center;
+}
+#download:hover {
+  box-shadow: 1px 1px 2px #999;
+  text-shadow: 0 0 1px #ddd;
+}
+h2 {
+  padding: 2px 0 2px 5px;
+  border-bottom: 1px dashed #555;
+  text-align: left;
+}
+.main-dt {
+  display: inline;
+  font-size: 17px;
+  font-weight: 600;
+}
+.main-dd {
+  margin: 5px 0 5px 0;
+}
+.main-ul{list-style-type: disc;}
+.main-li {
+  margin: 5px auto 5px 33px;
+}
+/*项目信息下的code和demo链接*/
+.project-button{float: right;}
+.project-a {
+  display: inline-block;
+  font-size: 15px;
+  width: 50px;
+  border: 1px solid #666;
+  border-radius: 3px;
+  text-align: center;
+}
+.project-a:last-child {
+  margin-left: 5px;
+}
+.project-a:hover {
+  /*box-shadow: h-shadow v-shadow blur(模糊距离) spread(阴影尺寸) color inset;*/
+  box-shadow: 1px 1px 2px #999;
+  background-color: #39a9db;
+  border: 1px solid #39a9db;
+  color: #fff;
+  text-shadow: 0 0 1px #ddd;
+}
+#mooc{color: #39a9db;}
+@media screen and (max-width: 767px) {
+  .container, .sidebar, .main {
+    width: 100%;
+  }
+  .container {
+    margin: 0;
+  }
+}
+strong{font-weight: 700; color: teal;}
+.score{color: inherit;}
