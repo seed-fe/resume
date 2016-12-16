@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seed-fe/resume.git"
+    "url": "git://git@github.com:seed-fe/resume.git"
   },
   "keywords": [
     "resume",
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/seed-fe/resume#readme",
   "devDependencies": {
     "browser-sync": "^2.18.2",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4"
   }
 }
