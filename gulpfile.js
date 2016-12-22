@@ -26,7 +26,7 @@ gulp.task('watch', function() {
 	browserSync.init({
 		// 设置监听的文件，以gulpfile.js所在的根目录为起点，单个文件就用字符串，多个文件就用数组
 		files: ["src/*.html", "src/css/*.css", "src/image/*.*"],
-		// ，这里是静态服务器，监听3000端口
+		// 这里是静态服务器，默认监听3000端口，baseDir设置启动文件的路径
 		server: {
 			baseDir: "./src"
 		},
